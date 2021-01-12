@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+        p > span {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: bolder;
+
+            line-height: initial;
+            background: white;
+
+            visibility: visible;
+        }
+
+        p{
+            line-height: 50px;
+        }
+
+        input {
+            width: 130px;
+            margin: 0;
+        }
+        p {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mad Libs - Halloween</h1>
+    <h2>Fyll i rutorna enligt instruktionerna under!</h2>
+    <p>
+        Jag kan knappt tro att det redan är <span><input type="text"><span>helgdag</span></span>!
+        Jag ser fram emot att ta på mig min <span><input type="text"><span>substantiv</span></span> och besöka varje <span><input type="text"><span>plats</span></span> i mitt kvarter.
+        I år ska jag klä ut mig till <span><input type="text"><span>offentlig person</span></span> med <span><input type="text"><span>adjektiv</span></span> <span><input type="text"><span>kroppsdel plural</span></span>.
+        Innan jag <span><input type="text"><span>verb</span></span> ser jag till att ta med min <span><input type="text"><span>adjektiv</span></span> <span><input type="text"><span>substantiv</span></span> för att böra all <span><input type="text"><span>maträtt</span></span>.
+        Äntligen är alla mina <span><input type="text"><span>substantiv(plural)</span></span> redo att gå!
+    </p>
+
+    <button>
+        Klicka när du fyllt i alla rutor
+    </button>
+
+    <script src='script.js'></script>
+</body>
+</html>
