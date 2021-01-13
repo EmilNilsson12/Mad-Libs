@@ -1,16 +1,17 @@
-p > span {
+form > div {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    font-weight: bolder;
 
     line-height: initial;
-    background: white;
-
-    visibility: visible;
+    font-weight: bolder;
 }
 
-p{
+form > span {
+    display: none;
+}
+
+form {
     line-height: 50px;
 }
 
@@ -19,6 +20,14 @@ input {
     margin: 0;
 }
 
-.hidden {
-    visibility: hidden;
+.show {
+    display: initial;
+}
+
+.hide {
+    display: none;
+}
+
+#sbmtBtn {
+    margin-top: 50px;
 }
